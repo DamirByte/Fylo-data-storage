@@ -1,0 +1,51 @@
+@media only screen and (min-width: 768px) {
+
+    body {
+        background: url('../images/bg-desktop.png');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+        background-color: var(--dark-blue);
+
+    }
+
+    .container {
+        flex-direction: row;
+        margin-top: -100px;
+    }
+
+    .top {
+        max-width: 350px;
+    }
+
+    .bottom {
+        max-width: 500px;
+        align-self: flex-end;
+    }
+
+    .bottom .paragraph {
+        text-align: start;
+        font-size: 12px;
+    }
+
+    .memory {
+        top: -50px;
+        left: 400px;
+        bottom: 180px;
+    }
+
+    .memory::after {
+        content: "";
+        position: absolute;
+        top: 57px;
+        right: 0px;
+        border-width: 13px;
+        border-style: solid;
+        border-color: white white transparent transparent;
+    }
+
+    .top .logo {
+        width: 120px;
+
+    }
+}
