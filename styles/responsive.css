@@ -11,11 +11,11 @@
 
     .container {
         flex-direction: row;
-        margin-top: -100px;
+        margin-top: -150px;
     }
 
     .top {
-        max-width: 320px;
+        max-width: 350px;
     }
 
     .bottom {
@@ -25,7 +25,7 @@
 
     .bottom .paragraph {
         text-align: start;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .memory {
